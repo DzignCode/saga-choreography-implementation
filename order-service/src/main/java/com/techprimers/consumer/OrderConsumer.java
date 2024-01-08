@@ -1,7 +1,7 @@
 package com.techprimers.consumer;
 
-import com.techprimers.model.Order;
-import com.techprimers.model.OrderStatus;
+import com.dzigncode.model.Order;
+import com.dzigncode.model.OrderStatus;
 import com.techprimers.repository.OrderRepository;
 import io.awspring.cloud.messaging.listener.annotation.SqsListener;
 import org.springframework.stereotype.Service;
